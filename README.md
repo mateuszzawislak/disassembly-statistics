@@ -19,10 +19,10 @@ The file format of input and output
 Input files for this program will be generated for the test executable programs in PE format using `dumpbin` (available in the VisualStudio environment).
 
 Program will output `.txt` file containing statistics - relating to parsed assembly file - for:
-* instruction length,
-* instruction opcode,
+* instructions lengths,
+* instructions opcodes,
 * used registers,
-* the length of constant values ​​(expressed in bytes) used in the instruction.
+* the length of constant values (expressed in bytes) used in the instruction.
 
 The data will be presented in the form shown below:
 
