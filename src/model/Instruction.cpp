@@ -1,11 +1,9 @@
 #include "Instruction.h"
 
-
 Instruction::Instruction(FirstRow* firstRow)
 {
 	this->firstRow = firstRow;
 }
-
 
 Instruction::~Instruction(void)
 {

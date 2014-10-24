@@ -7,6 +7,7 @@ class Const
 {
 private:
 	std::string signs;
+
 public:
 	Const(std::string signs);
 	~Const(void);

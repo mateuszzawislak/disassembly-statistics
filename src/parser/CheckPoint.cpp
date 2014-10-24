@@ -1,7 +1,7 @@
 #include "CheckPoint.h"
 
 
-CheckPoint::CheckPoint(int linePosition, int tokenInLineIndex )
+CheckPoint::CheckPoint(int linePosition, int tokenInLineIndex)
 {
 	this->linePosition = linePosition;
 	this->tokenInLineIndex = tokenInLineIndex;

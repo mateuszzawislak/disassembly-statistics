@@ -7,11 +7,11 @@ class Register
 {
 private:
 	std::string name;
+	
 public:
 	Register(std::string name);
 	~Register(void);
 	std::string getName();
 };
-
 
 #endif

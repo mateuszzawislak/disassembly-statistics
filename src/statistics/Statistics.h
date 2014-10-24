@@ -33,7 +33,6 @@ public:
 	void addOpcode(std::string opcode);
 	void addRegister(std::string reg);
 	void writeIntoFile(std::string fileName, bool sortFirstColumn);
-
 };
 
 #endif

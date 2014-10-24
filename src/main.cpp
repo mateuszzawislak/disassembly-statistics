@@ -4,7 +4,7 @@
 #include "parser/Parser.h"
 #include "statistics/Statistics.h"
 
-int main( int argc, const char* argv[] )
+int main(int argc, const char* argv[])
 {
 	std::string inFile = "", outFile = "";
 	bool sortFirstColumn = false;
@@ -13,11 +13,8 @@ int main( int argc, const char* argv[] )
 		std::cerr << "Usage is " << argv[0] << " -in <disassembly_file> -out <output_file_name>  [-first] " << std::endl;
 		std::cin.get();
 		exit(0);
-    } else {
-        
-
+	} else {
 		for (int i = 1; i < argc; ++i) {
-
 			std::string currArg = std::string(argv[i]);
 
 			if (!currArg.compare("-in")) {
@@ -30,8 +27,7 @@ int main( int argc, const char* argv[] )
 		}
 	}
 
-	if( !inFile.compare("") || !outFile.compare("") )
-	{
+	if(!inFile.compare("") || !outFile.compare("")) {
 		std::cerr << " Bad arguments! " << std::endl;
 		exit(0);
 	}

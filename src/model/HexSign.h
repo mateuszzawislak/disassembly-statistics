@@ -9,6 +9,7 @@ class HexSign
 {
 private:
 	std::string hex;
+
 public:
 	HexSign(void);
 	~HexSign(void);

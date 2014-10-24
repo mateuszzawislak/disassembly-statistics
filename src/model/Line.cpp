@@ -1,14 +1,13 @@
 #include "Line.h"
 
-
 Line::Line(std::vector<std::string> tokens) : currentIndex(0)
 {
 	this->tokens = tokens;
 }
 
-
 Line::~Line(void)
 {
+
 }
 
 std::string Line::getCurrentToken()
@@ -23,7 +22,7 @@ bool Line::isEnd()
 
 void Line::advance()
 {
-		currentIndex++;
+	currentIndex++;
 }
 
 int Line::getCurrentIndex()

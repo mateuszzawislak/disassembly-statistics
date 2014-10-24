@@ -9,6 +9,7 @@ class Line
 private:
 	int currentIndex;
 	std::vector<std::string> tokens;
+	
 public:
 	Line(std::vector<std::string> tokens);
 	~Line(void);

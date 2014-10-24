@@ -66,7 +66,6 @@ struct sortSecond {
 
 template<typename A, typename B>
 void Statistics::sortAndWrite(const std::map<A, B>& mapToPrint, std::string title, std::ofstream& file, bool sortFirstColumn) {
-
 	std::vector<std::pair<A, B> > mapcopy(mapToPrint.begin(), mapToPrint.end());
 	if(sortFirstColumn)
 		std::sort(mapcopy.begin(), mapcopy.end(), sortFirst<A, B>());
@@ -83,7 +82,6 @@ void Statistics::sortAndWrite(const std::map<A, B>& mapToPrint, std::string titl
 
 void Statistics::writeIntoFile(std::string fileName, bool sortFirstColumn)
 {
-
 	std::ofstream file(fileName.c_str());
 
     if(file.is_open() == false)
@@ -98,6 +96,5 @@ void Statistics::writeIntoFile(std::string fileName, bool sortFirstColumn)
 
 	file.close();
 
-	std::cout << " Statistics wrote into file " << fileName << std::endl;
-	
+	std::cout << " Statistics wrote into file " << fileName << std::endl;	
 }

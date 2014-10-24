@@ -14,7 +14,6 @@ public:
 	~Row(void);
 	
 	virtual Row::RowType getType() = 0 ;
-
-
 };
+
 #endif

@@ -11,6 +11,7 @@ class CheckPoint
 private: 
 	int linePosition;
 	int tokenInLineIndex;
+	
 public:
 	CheckPoint(int linePosition, int tokenInLineIndex );
 	~CheckPoint(void);

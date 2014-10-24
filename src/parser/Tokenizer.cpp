@@ -4,8 +4,7 @@ Tokenizer::Tokenizer(std::string fileName)
 {
 	std::cout<< " Opening file " << fileName <<std::endl;
 
-	try{
-
+	try {
 		this->fileName = fileName;
 		infile.open(fileName.c_str());
 		if( !infile.is_open())
@@ -20,7 +19,6 @@ Tokenizer::Tokenizer(std::string fileName)
 	{
 		std::cerr << e.what() << std::endl;
 	}
-
 }
 
 Tokenizer::~Tokenizer()

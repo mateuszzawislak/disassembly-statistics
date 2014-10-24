@@ -1,11 +1,9 @@
 #include "FirstRow.h"
 
-
 FirstRow::FirstRow(void)
 {
 	assembly = NULL;
 }
-
 
 FirstRow::~FirstRow(void)
 {
@@ -63,7 +61,6 @@ std::string FirstRow::getAddress()
 {
 	return this->address;
 }
-
 
 void FirstRow::setAddress(std::string address)
 {

@@ -554,7 +554,6 @@ bool Parser::offsetConst(AssemblyInstr* assembly)
 
 bool Parser::jmpArg(AssemblyInstr* assembly)
 {
-
 	if(!constant(assembly))
 		return false;
 	else

@@ -1,10 +1,9 @@
 #include "NextRow.h"
 
-
 NextRow::NextRow(void)
 {
-}
 
+}
 
 NextRow::~NextRow(void)
 {
@@ -20,7 +19,6 @@ Row::RowType NextRow::getType()
 {
 	return Row::NEXT_ROW;
 }
-
 
 void NextRow::setHexes(std::vector<HexSign*> hexes)
 {

@@ -9,6 +9,7 @@ Const::Const(std::string signs)
 
 Const::~Const(void)
 {
+
 }
 
 std::string Const::getConst()
