@@ -57,6 +57,6 @@ where:
 * `output_file_name` - output file
 * `first` - results in sorting the results by the first column
 
-Sample call:
+Sample arguments:
 
         -in file.txt -out results.txt -first
