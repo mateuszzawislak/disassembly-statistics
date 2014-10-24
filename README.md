@@ -46,3 +46,17 @@ The data will be presented in the form shown below:
     constLength2 : count2
     constLength3 : count3
     ...
+
+Usage
+-----
+The program uses a typical command line interface. The syntax is:
+
+        disstat -in <disassembly_file> -out <output_file_name> [-First]
+where:
+* `disassembly_file` - input file
+* `output_file_name` - output file
+* `first` - results in sorting the results by the first column
+
+Sample call:
+
+        -in file.txt -out results.txt -first
