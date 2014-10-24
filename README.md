@@ -5,7 +5,7 @@ Statistics of the input, assembly file for selected ranges of addresses.
 
 Motivation
 ----------
-Statistics about registers and constants are useful in the security analysis executable applications.
+Statistics about registers and constants are useful in the `security analysis` executable applications.
 
 Description of the expected functionality and algorithm procedure
 -------------------
